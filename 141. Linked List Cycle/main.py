@@ -1,6 +1,6 @@
 class Pet:
 
-    petNumber = 0
+    petNumber = 0 # static
 
     def __init__(self, name, age):
         print("Pet Ctor")
